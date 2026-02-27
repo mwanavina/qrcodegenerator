@@ -10,7 +10,7 @@ export default function DownloadableQR () {
 
         const pgnUrl = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
 
-        let downloadLink = document.createElement("a");
+        const downloadLink = document.createElement("a");
         downloadLink.href = pgnUrl;
         downloadLink.download = "qr-code.png";
         document.body.appendChild(downloadLink);
