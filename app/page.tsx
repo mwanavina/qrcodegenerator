@@ -1,4 +1,3 @@
-import Image from "next/image";
 import QRCodeGenerator from "./components/QRCodeGenerator";
 
 export default function Home() {
