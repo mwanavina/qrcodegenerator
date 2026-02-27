@@ -2,10 +2,6 @@
 import { QRCodeCanvas } from 'qrcode.react';
 import { useState } from 'react';
 
-interface value{
-    value: String;
-}
-
 export default function DownloadableQR () {
     const [url, setUrl] = useState('');
     const downloadQRCode = () => {
